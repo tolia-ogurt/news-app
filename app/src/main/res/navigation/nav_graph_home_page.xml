@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home_page"
+    app:startDestination="@id/newsListFragment">
+
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="com.ogurt.newsapp.presentation.news_list.NewsListFragment"
+        android:label="NewsListFragment"
+        tools:layout="@layout/news_list_fragment"
+        >
+        <action
+            android:id="@+id/action_newsListFragment_to_newsDetailFragment"
+            app:destination="@id/newsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailFragment"
+        android:name="com.ogurt.newsapp.presentation.news_detail.NewsDetailFragment"
+        android:label="NewsDetailFragment"
+        tools:layout="@layout/news_detail_fragment">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+</navigation>

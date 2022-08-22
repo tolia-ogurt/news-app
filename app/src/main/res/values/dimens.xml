@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_75">4dp</dimen>
+    <dimen name="small_100">8dp</dimen>
+    <dimen name="small_125">12dp</dimen>
+    <dimen name="small_150">16dp</dimen>
+    <dimen name="small_175">18dp</dimen>
+    <dimen name="small_200">20dp</dimen>
+
+    <dimen name="normal_100">24dp</dimen>
+    <dimen name="normal_125">28dp</dimen>
+    <dimen name="normal_150">32dp</dimen>
+    <dimen name="normal_200">40dp</dimen>
+
+    <dimen name="large_100">44dp</dimen>
+    <dimen name="large_150">52dp</dimen>
+    <dimen name="large_200">56dp</dimen>
+
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_Xlarge">18sp</dimen>
+    <dimen name="text_XXlarge">20sp</dimen>
+
+    <dimen name="news_image_width">344dp</dimen>
+    <dimen name="news_image_height">240dp</dimen>
+</resources>
